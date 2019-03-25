@@ -1,0 +1,157 @@
+    /* ----------------------------------------------------------
+    :: Template Name: Bigshop - Responsive Ecommerce Template
+    :: Author: Designing World
+    :: Author URL: https://wrapbootstrap.com/user/DesigningWorld
+    :: Description: Bigshop is smart &amp; elegant e-commerce HTML5 Template. It's suitable for all e-commerce business platform. It's come with 55+ Pages &amp; exciting all features. It's super responsive for all Desktop/Mobile layout.
+    :: Version: 1.0
+    :: Created: 20 September 2017
+    :: Last Updated: 14 October 2017
+    ---------------------------------------------------------- */
+    
+    .floatleft {
+        float: left
+    }
+    
+    .floatright {
+        float: right
+    }
+    
+    .alignleft {
+        float: left;
+        margin-right: 15px;
+    }
+    
+    .alignright {
+        float: right;
+        margin-left: 15px;
+    }
+    
+    .aligncenter {
+        display: block;
+        margin: 0 auto 15px;
+    }
+
+    /* -------------------------------------------------
+    ************ PLACE YOUR CUSTOM CSS HERE ************
+    ------------------------------------------------- */
+
+
+.about_us_content {
+    padding-top: 30px;
+}
+
+.about_us_content h5{
+    font-size: 120%;
+        
+}
+
+.about-circle-header {
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 0 0 10%;
+    width: 75%;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+
+
+
+
+.background_blog_area {
+    background-color: #571d24;
+}
+
+.shopping-btn {
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.checkout_pagination_edit{
+    text-align: left;
+}
+
+.tabs-layout-accordion .basel-tab-wrapper .basel-accordion-title {
+    position: relative;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.height-1000 {
+    height: 1000px !important;
+}
+
+.height-900 {
+    height: 900px !important;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+}
+
+    .topnav a {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 26px 20px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+.active {
+    background-color: transparent;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+        .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+}
